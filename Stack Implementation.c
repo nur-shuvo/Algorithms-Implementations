@@ -11,9 +11,7 @@ struct stack
 {
     int stk[MAXSIZE];  /* Muloto amra ei array te push \ pop krbo  */
     int top;
-};
-//typedef struct stack STACK;
-stack s;
+}s;
 
 void push(void);
 int  pop(void);       /* alada alada function declare krlam push \pop\present stack er status
@@ -52,7 +50,6 @@ int main ()
         case 4:
             return;
         }
-//        fflush (stdin);
         printf ("Do you want to continue(Type 0 or 1)?\n");
         scanf    ("%d", &option);
     }
