@@ -1,3 +1,4 @@
+//  * gmail : nurshuvo51@gmail.com
 //  * Prime Factorilization of a number
 #include<bits/stdc++.h>
 int prime[100];
