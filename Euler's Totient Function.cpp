@@ -1,3 +1,4 @@
+//  * gmail : nurshuvo51@gmail.com
 //  * Implementation of Euler Totient function using Euler's
 //    product Formula
 //  * Formula , phi(n) = n * [ ( 1 - 1/p1 ) * ( 1 - 1/p2 )* ( 1 - 1/p3 ) * ....*( 1 - 1/pn )  ]
