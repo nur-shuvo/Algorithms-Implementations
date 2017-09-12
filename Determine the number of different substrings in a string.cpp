@@ -3,17 +3,19 @@
 using namespace std;
 int main()
 {
-
-    string s;
-    cin>>s;
-    int n =  s.length ();
-
     // Calculate all powers of p
     const int p = 31;
-    vector <ULL> p_pow (s.length ());
+    vector <ULL> p_pow (50005);
     p_pow [0] = 1;
     for (size_t i = 1; i <p_pow.size (); ++ i)
         p_pow [i] = p_pow [i-1] * p;
+
+    int t;
+    cin>>t; getchar();
+    while(t--){
+    string s;
+    cin>>s;
+    int n =  s.length ();
 
     // Calculate the hashes of all prefixes
     vector <ULL> h (s.length ());
@@ -44,4 +46,5 @@ int main()
         result += (int) hs.size ();
     }
     cout << result;
+    }
 }
