@@ -5,7 +5,7 @@ using namespace std;
 
 //for directed acyclic graph (DAG)
 //slightly modified bfs (topological sort)
-//you can print the sort in increasing or decreasing order
+//you can print the sort in increasing or decreasing order(node value)
 //based on modified bfs
 
 vi ts,adj[100000];
